@@ -1,0 +1,16 @@
+rapazes = int (input("Introduza o numero de rapazes "))
+raparigas = int(input("Introduza o numero de raparigas"))
+
+if raparigas<rapazes:
+    print("A percentagem de rapazes é maior que a de raparigas")
+else:
+    print ("A percentagem de raparigas é maior que a de rapazes")
+
+
+turma = rapazes + raparigas
+soma = 0
+for i in range(turma):
+    idade = int(input("escreve sempre uma nova idade"))
+    soma = soma + idade
+media= soma/turma
+print("a media da idade e ", + media)
