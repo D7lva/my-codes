@@ -1,0 +1,19 @@
+def cel_fahr():
+    c =int(input("converter de celsius para fahrenheit"))
+    F = c* (9 / 5) + 32
+    return F
+
+def fahr_cel():
+    c=int(input("converter de fahrenheit para celsius"))
+    F = (c - 32) * (5 / 9)
+    return F
+print("Valor em celsius é\n:",fahr_cel())
+print("Valor em  celsius para fahrenheit é\n:" ,cel_fahr())
+
+
+
+def cel_kelv():
+    c = float(input("Converter de celsius para Kelvin"))
+    K= c+273.15
+    return K
+print("Valor em celsius para kelvin é \n:", cel_kelv())
